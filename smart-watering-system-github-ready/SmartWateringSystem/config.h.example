@@ -1,0 +1,25 @@
+/*
+ * Local configuration for Smart Watering System.
+ *
+ * 1. Copy this file to:
+ *      config.h
+ *
+ * 2. Replace the placeholders below.
+ *
+ * 3. NEVER commit config.h to a public repository.
+ */
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// Wi-Fi credentials
+constexpr char WIFI_SSID[] = "YOUR_WIFI_SSID";
+constexpr char WIFI_PASSWORD[] = "YOUR_WIFI_PASSWORD";
+
+// ThingsBoard device access token
+constexpr char TOKEN[] = "YOUR_THINGSBOARD_DEVICE_TOKEN";
+
+// ThingsBoard server
+constexpr char THINGSBOARD_SERVER[] = "thingsboard.cloud";
+
+#endif

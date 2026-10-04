@@ -1,0 +1,7 @@
+# Arduino libraries
+
+ESP32 board package
+
+ThingsBoard Arduino SDK
+Arduino MQTT Client
+RTClib
